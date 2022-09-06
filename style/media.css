@@ -1,0 +1,40 @@
+@media screen and (max-width: 760px ) {
+  header {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+  }
+  .container {
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 100%;  
+  }
+
+  input {
+    align-self: center;
+  }
+
+  form [type="submit"] {
+    width: 50%;
+  }
+  ul {
+    text-align: center;
+  }
+  .foto-de-fundo {
+    display: none;
+  }
+}
+
+
+
